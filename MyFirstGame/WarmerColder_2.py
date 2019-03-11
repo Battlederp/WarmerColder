@@ -3,7 +3,19 @@ import time
 import random
 import math
 
-
+# ------------------------------------------------------------------------------------- Rules & Controls
+# Goal: 
+# 1. move the window to the hottest spot on the screen.
+# 2. The window changes color to indicate the window's proximity to the spot.
+# 3. From cold to hot, the colous are: grey, blue, green, yellow, red, white.
+# 4. Ones you see the white color, you win the game, and a new random stop is generated.
+# 
+# Control:
+# w - up
+# s - down
+# a - left
+# d - right
+# e - randomly changes the window's shape (it's purely cosmetic)
 # ------------------------------------------------------------------------------------- Classes
 
 
